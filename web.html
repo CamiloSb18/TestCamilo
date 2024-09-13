@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basics de la Web</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Basics de la Web</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">HTML</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CSS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">JS</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Recursos
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Enlaces útiles</a>
+              <a class="dropdown-item" href="#">Ejemplos y ejercicios</a>
+              <a class="dropdown-item" href="#">Recursos adicionales</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="inicio">
+      <div class="container">
+        <h1>Bienvenido a Basics de la Web</h1>
+        <p>En esta página web encontrarás conceptos básicos de HTML, CSS y JS para empezar a crear páginas web.</p>
+        <button class="btn btn-primary" data-toggle="modal" data-target="#modalBienvenida">Ver más</button>
+      </div>
+    </section>
+    <section id="html">
+      <div class="container">
+        <h2>HTML</h2>
+        <p>HTML es el lenguaje de marcado estándar para la creación de páginas web. Aquí encontrarás conceptos básicos de HTML, como estructura de página, etiquetas básicas, enlaces y anclas, formularios, tablas y listas.</p>
+        <a href="#" class="btn btn-primary">Ver más</a>
+      </div>
+    </section>
+    <section id="css">
+      <div class="container">
+        <h2>CSS</h2>
+        <p>CSS es el lenguaje de estilo estándar para la creación de diseños web. Aquí encontrarás conceptos básicos de CSS, como selectores y propiedades, colores y fondos, tipografía y texto, layout y diseño, pseudoclases y pseudoelementos, y media queries.</p>
+        <a href="#" class="btn btn-primary">Ver más</a>
+      </div>
+    </section>
+    <section id="js">
+      <div class="container">
+        <h2>JS</h2>
+        <p>JS es el lenguaje de programación estándar para la creación de interactividad web. Aquí encontrarás conceptos básicos de JS, como variables y tipos de datos, funciones, condicionales y bucles, eventos, y interacción con el DOM.</p>
+        <a href="#" class="btn btn-primary">Ver más</a>
+      </div>
+    </section>
+    <section id="ejemplos">
+      <div class="container">
+        <h2>Ejemplos y ejercicios</h2>
+        <p>Aquí encontrarás ejemplos y ejercicios prácticos para que puedas practicar y aplicar lo aprendido.</p>
+        <div class="row">
+          <div class="col-md-4">
+            <h3>Crear una página web básica</h3>
+            <p>
+              <a href="#" class="btn btn-primary">Ver ejemplo</a>
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h3>Crear un formulario básico</h3>
+            <p>
+              <a href="#" class="btn btn-primary">Ver ejemplo</a>
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h3>Crear un menú desplegable</h3>
+            <p>
+              <a href="#" class="btn btn-primary">Ver ejemplo</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Basics de la Web</p>
+    </div>
+  </footer>
+  <div class="modal fade" id="modalBienvenida" tabindex="-1" role="dialog" aria-labelledby="modalBienvenidaLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalBienvenidaLabel">Bienvenido a Basics de la Web</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>En esta página web encontrarás conceptos básicos de HTML, CSS y JS para empezar a crear páginas web.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
