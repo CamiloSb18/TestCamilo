@@ -1,0 +1,53 @@
+body {
+  background-color: #ccc;
+  cursor: wait;
+}
+
+p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+
+.amarillo {
+  color: yellow;
+}
+
+.verde {
+  color: green;
+}
+
+.color-extraño {
+  color: rgb(45, 3, 71);
+}
+
+.rojo {
+  color: red;
+}
+
+.negro {
+  color: black;
+}
+
+.azul {
+  color: blue;
+}
+
+.cyan {
+  color: cyan;
+  font-size: 16pt;
+}
+
+.amarillo-grande {
+  color: rgb(251, 255, 0);
+  font-size: 26pt;
+}
+
+a {
+  color: white;
+  background-color: red;
+  font-size: 18px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
